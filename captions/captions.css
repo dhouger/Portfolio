@@ -1,0 +1,737 @@
+﻿.pf-default-font,
+.pf-default-font div,
+.pf-default-font span,
+.pf-default-font p {
+    font-family: "Segoe UI", "Ebrima", "Nirmala UI", "Gadugi", "Segoe Xbox Symbol", "Segoe UI Symbol", "Meiryo UI", "Khmer UI", "Tunga", "Lao UI", "Raavi", "Iskoola Pota", "Latha", "Leelawadee", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Cambria Math" !important;
+    font-variant: normal !important;
+}
+
+.pf-monospace-font,
+.pf-monospace-font div,
+.pf-monospace-font span,
+.pf-monospace-font p,
+.pf-monospaceserif-font,
+.pf-monospaceserif-font div,
+.pf-monospaceserif-font span,
+.pf-monospaceserif-font p {
+    font-family: "Courier New" !important;
+    font-variant: normal !important;
+}
+
+.pf-sansserif-font,
+.pf-sansserif-font div,
+.pf-sansserif-font span,
+.pf-sansserif-font p,
+.pf-proportionalsansserif-font,
+.pf-proportionalsansserif-font div,
+.pf-proportionalsansserif-font span,
+.pf-proportionalsansserif-font p {
+    font-family: "Tahoma" !important;
+    font-variant: normal !important;
+}
+
+.pf-monospacesansserif-font,
+.pf-monospacesansserif-font div,
+.pf-monospacesansserif-font span,
+.pf-monospacesansserif-font p {
+    font-family: "Lucida Console" !important;
+    font-variant: normal !important;
+}
+
+.pf-serif-font,
+.pf-serif-font div,
+.pf-serif-font span,
+.pf-serif-font p,
+.pf-proportionalserif-font,
+.pf-proportionalserif-font div,
+.pf-proportionalserif-font span,
+.pf-proportionalserif-font p {
+    font-family: "Times New Roman" !important;
+    font-variant: normal !important;
+}
+
+.pf-monospace-font,
+.pf-monospace-font div,
+.pf-monospace-font span,
+.pf-monospace-font p {
+    font-family: "Courier New" !important;
+    font-variant: normal !important;
+}
+
+.pf-casual-font,
+.pf-casual-font div,
+.pf-casual-font span,
+.pf-casual-font p {
+    font-family: "Comic Sans MS" !important;
+    font-variant: normal !important;
+}
+
+.pf-cursive-font,
+.pf-cursive-font div,
+.pf-cursive-font span,
+.pf-cursive-font p {
+    font-family: "Segoe Script" !important;
+    font-variant: normal !important;
+    line-height: 1.38 !important;
+}
+
+.pf-smallcaps-font,
+.pf-smallcaps-font div,
+.pf-smallcaps-font span,
+.pf-smallcaps-font p {
+    font-family: "Trebuchet MS" !important;
+    font-variant: small-caps !important;
+}
+
+/* Caption Color */
+
+/*white*/
+.pf-255-255-255-255-font-color,
+.pf-255-255-255-255-font-color div,
+.pf-255-255-255-255-font-color span,
+.pf-255-255-255-255-font-color p {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.pf-255-255-255-168-font-color,
+.pf-255-255-255-168-font-color div,
+.pf-255-255-255-168-font-color span,
+.pf-255-255-255-168-font-color p {
+    color: rgba(255, 255, 255, 0.66) !important;
+}
+
+.pf-255-255-255-80-font-color,
+.pf-255-255-255-80-font-color div,
+.pf-255-255-255-80-font-color span,
+.pf-255-255-255-80-font-color p {
+    color: rgba(255, 255, 255, 0.31) !important;
+}
+
+.pf-255-255-255-0-font-color,
+.pf-255-255-255-0-font-color div,
+.pf-255-255-255-0-font-color span,
+.pf-255-255-255-0-font-color p {
+    color: rgba(255, 255, 255, 0) !important;
+}
+
+/*black*/
+.pf-0-0-0-255-font-color,
+.pf-0-0-0-255-font-color div,
+.pf-0-0-0-255-font-color span,
+.pf-0-0-0-255-font-color p {
+    color: rgba(0, 0, 0, 1) !important;
+}
+
+.pf-0-0-0-168-font-color,
+.pf-0-0-0-168-font-color div,
+.pf-0-0-0-168-font-color span,
+.pf-0-0-0-168-font-color p {
+    color: rgba(0, 0, 0, 0.66) !important;
+}
+
+.pf-0-0-0-80-font-color,
+.pf-0-0-0-80-font-color div,
+.pf-0-0-0-80-font-color span,
+.pf-0-0-0-80-font-color p {
+    color: rgba(0, 0, 0, 0.31) !important;
+}
+
+.pf-0-0-0-0-font-color,
+.pf-0-0-0-0-font-color div,
+.pf-0-0-0-0-font-color span,
+.pf-0-0-0-0-font-color p {
+    color: rgba(0, 0, 0, 0) !important;
+}
+
+/*red*/
+.pf-255-0-0-255-font-color,
+.pf-255-0-0-255-font-color div,
+.pf-255-0-0-255-font-color span,
+.pf-255-0-0-255-font-color p {
+    color: rgba(255, 0, 0, 1) !important;
+}
+
+.pf-255-0-0-168-font-color,
+.pf-255-0-0-168-font-color div,
+.pf-255-0-0-168-font-color span,
+.pf-255-0-0-168-font-color p {
+    color: rgba(255, 0, 0, 0.66) !important;
+}
+
+.pf-255-0-0-80-font-color,
+.pf-255-0-0-80-font-color div,
+.pf-255-0-0-80-font-color span,
+.pf-255-0-0-80-font-color p {
+    color: rgba(255, 0, 0, 0.31) !important;
+}
+
+.pf-255-0-0-0-font-color,
+.pf-255-0-0-0-font-color div,
+.pf-255-0-0-0-font-color span,
+.pf-255-0-0-0-font-color p {
+    color: rgba(255, 0, 0, 0) !important;
+}
+
+/*green*/
+.pf-0-128-0-255-font-color,
+.pf-0-128-0-255-font-color div,
+.pf-0-128-0-255-font-color span,
+.pf-0-128-0-255-font-color p {
+    color: rgba(0, 128, 0, 1) !important;
+}
+
+.pf-0-128-0-168-font-color,
+.pf-0-128-0-168-font-color div,
+.pf-0-128-0-168-font-color span,
+.pf-0-128-0-168-font-color p {
+    color: rgba(0, 128, 0, 0.66) !important;
+}
+
+.pf-0-128-0-80-font-color,
+.pf-0-128-0-80-font-color div,
+.pf-0-128-0-80-font-color span,
+.pf-0-128-0-80-font-color p {
+    color: rgba(0, 128, 0, 0.31) !important;
+}
+
+.pf-0-128-0-0-font-color,
+.pf-0-128-0-0-font-color div,
+.pf-0-128-0-0-font-color span,
+.pf-0-128-0-0-font-color p {
+    color: rgba(0, 128, 0, 0) !important;
+}
+
+/*yellow*/
+.pf-255-255-0-255-font-color,
+.pf-255-255-0-255-font-color div,
+.pf-255-255-0-255-font-color span,
+.pf-255-255-0-255-font-color p {
+    color: rgba(255, 255, 0, 1) !important;
+}
+
+.pf-255-255-0-168-font-color,
+.pf-255-255-0-168-font-color div,
+.pf-255-255-0-168-font-color span,
+.pf-255-255-0-168-font-color p {
+    color: rgba(255, 255, 0, 0.66) !important;
+}
+
+.pf-255-255-0-80-font-color,
+.pf-255-255-0-80-font-color div,
+.pf-255-255-0-80-font-color span,
+.pf-255-255-0-80-font-color p {
+    color: rgba(255, 255, 0, 0.31) !important;
+}
+
+.pf-255-255-0-0-font-color,
+.pf-255-255-0-0-font-color div,
+.pf-255-255-0-0-font-color span,
+.pf-255-255-0-0-font-color p {
+    color: rgba(255, 255, 0, 0) !important;
+}
+
+/*blue*/
+.pf-0-0-255-255-font-color,
+.pf-0-0-255-255-font-color div,
+.pf-0-0-255-255-font-color span,
+.pf-0-0-255-255-font-color p {
+    color: rgba(0, 0, 255, 1) !important;
+}
+
+.pf-0-0-255-168-font-color,
+.pf-0-0-255-168-font-color div,
+.pf-0-0-255-168-font-color span,
+.pf-0-0-255-168-font-color p {
+    color: rgba(0, 0, 255, 0.66) !important;
+}
+
+.pf-0-0-255-80-font-color,
+.pf-0-0-255-80-font-color div,
+.pf-0-0-255-80-font-color span,
+.pf-0-0-255-80-font-color p {
+    color: rgba(0, 0, 255, 0.31) !important;
+}
+
+.pf-0-0-255-0-font-color,
+.pf-0-0-255-0-font-color div,
+.pf-0-0-255-0-font-color span,
+.pf-0-0-255-0-font-color p {
+    color: rgba(0, 0, 255, 0) !important;
+}
+
+/*magenta*/
+.pf-255-0-255-255-font-color,
+.pf-255-0-255-255-font-color div,
+.pf-255-0-255-255-font-color span,
+.pf-255-0-255-255-font-color p {
+    color: rgba(255, 0, 255, 1) !important;
+}
+
+.pf-255-0-255-168-font-color,
+.pf-255-0-255-168-font-color div,
+.pf-255-0-255-168-font-color span,
+.pf-255-0-255-168-font-color p {
+    color: rgba(255, 0, 255, 0.66) !important;
+}
+
+.pf-255-0-255-80-font-color,
+.pf-255-0-255-80-font-color div,
+.pf-255-0-255-80-font-color span,
+.pf-255-0-255-80-font-color p {
+    color: rgba(255, 0, 255, 0.31) !important;
+}
+
+.pf-255-0-255-0-font-color,
+.pf-255-0-255-0-font-color div,
+.pf-255-0-255-0-font-color span,
+.pf-255-0-255-0-font-color p {
+    color: rgba(255, 0, 255, 0) !important;
+}
+
+/*cyan*/
+.pf-0-255-255-255-font-color,
+.pf-0-255-255-255-font-color div,
+.pf-0-255-255-255-font-color span,
+.pf-0-255-255-255-font-color p {
+    color: rgba(0, 255, 255, 1) !important;
+}
+
+.pf-0-255-255-168-font-color,
+.pf-0-255-255-168-font-color div,
+.pf-0-255-255-168-font-color span,
+.pf-0-255-255-168-font-color p {
+    color: rgba(0, 255, 255, 0.66) !important;
+}
+
+.pf-0-255-255-80-font-color,
+.pf-0-255-255-80-font-color div,
+.pf-0-255-255-80-font-color span,
+.pf-0-255-255-80-font-color p {
+    color: rgba(0, 255, 255, 0.31) !important;
+}
+
+.pf-0-255-255-0-font-color,
+.pf-0-255-255-0-font-color div,
+.pf-0-255-255-0-font-color span,
+.pf-0-255-255-0-font-color p {
+    color: rgba(0, 255, 255, 0) !important;
+}
+
+/*Caption Size*/
+.pf-50-font-size,
+.pf-50-font-size div,
+.pf-50-font-size span,
+.pf-50-font-size p {
+    font-size: 31px !important;
+}
+
+.pf-75-font-size,
+.pf-75-font-size div,
+.pf-75-font-size span,
+.pf-75-font-size p {
+    font-size: 47px !important;
+}
+
+.pf-100-font-size,
+.pf-100-font-size div,
+.pf-100-font-size span,
+.pf-100-font-size p {
+    font-size: 62px !important;
+}
+
+.pf-150-font-size,
+.pf-150-font-size div,
+.pf-150-font-size span,
+.pf-150-font-size p {
+    font-size: 93px !important;
+}
+
+.pf-200-font-size,
+.pf-200-font-size div,
+.pf-200-font-size span,
+.pf-200-font-size p {
+    font-size: 124px !important;
+}
+
+/*fonteffects*/
+.pf-none-font-effect,
+.pf-none-font-effect div,
+.pf-none-font-effect span,
+.pf-none-font-effect p {
+    text-shadow: none !important;
+}
+
+.pf-raised-font-effect,
+.pf-raised-font-effect div,
+.pf-raised-font-effect span,
+.pf-raised-font-effect p {
+    text-shadow: -1px 0px 0px silver, 0px -1px 0px silver, 1px 1px 0px black, 2px 2px 0px black, 3px 3px 0px black !important;
+}
+
+.pf-depressed-font-effect,
+.pf-depressed-font-effect div,
+.pf-depressed-font-effect span,
+.pf-depressed-font-effect p {
+    text-shadow: 1px 1px 0px silver, 0px 1px 0px silver, -1px -1px 0px black, -1px 0px 0px black !important;
+}
+
+.pf-uniform-font-effect,
+.pf-uniform-font-effect div,
+.pf-uniform-font-effect span,
+.pf-uniform-font-effect p {
+    text-shadow: 0px 0px 4px black, 0px 0px 4px black, 0px 0px 4px black, 0px 0px 4px black !important;
+}
+
+.pf-drop-shadow-font-effect,
+.pf-drop-shadow-font-effect div,
+.pf-drop-shadow-font-effect span,
+.pf-drop-shadow-font-effect p {
+    text-shadow: 3px 3px 3px 2px black !important;
+}
+
+/* Background Color */
+
+/*white*/
+.pf-255-255-255-255-background-color span,
+.pf-255-255-255-255-background-color p {
+    background-color: rgba(255, 255, 255, 1) !important;
+}
+
+.pf-255-255-255-168-background-color span,
+.pf-255-255-255-168-background-color p {
+    background-color: rgba(255, 255, 255, 0.66) !important;
+}
+
+.pf-255-255-255-80-background-color span,
+.pf-255-255-255-80-background-color p {
+    background-color: rgba(255, 255, 255, 0.31) !important;
+}
+
+.pf-255-255-255-0-background-color span,
+.pf-255-255-255-0-background-color p {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+/*black*/
+.pf-0-0-0-255-background-color span,
+.pf-0-0-0-255-background-color p {
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.pf-0-0-0-168-background-color span,
+.pf-0-0-0-168-background-color p {
+    background-color: rgba(0, 0, 0, 0.66) !important;
+}
+
+.pf-0-0-0-80-background-color span,
+.pf-0-0-0-80-background-color p {
+    background-color: rgba(0, 0, 0, 0.31) !important;
+}
+
+.pf-0-0-0-0-background-color span,
+.pf-0-0-0-0-background-color p {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+/*red*/
+.pf-255-0-0-255-background-color span,
+.pf-255-0-0-255-background-color p {
+    background-color: rgba(255, 0, 0, 1) !important;
+}
+
+.pf-255-0-0-168-background-color span,
+.pf-255-0-0-168-background-color p {
+    background-color: rgba(255, 0, 0, 0.66) !important;
+}
+
+.pf-255-0-0-80-background-color span,
+.pf-255-0-0-80-background-color p {
+    background-color: rgba(255, 0, 0, 0.31) !important;
+}
+
+.pf-255-0-0-0-background-color span,
+.pf-255-0-0-0-background-color p {
+    background-color: rgba(255, 0, 0, 0) !important;
+}
+
+/*green*/
+.pf-0-128-0-255-background-color span,
+.pf-0-128-0-255-background-color p {
+    background-color: rgba(0, 128, 0, 1) !important;
+}
+
+.pf-0-128-0-168-background-color span,
+.pf-0-128-0-168-background-color p {
+    background-color: rgba(0, 128, 0, 0.66) !important;
+}
+
+.pf-0-128-0-80-background-color span,
+.pf-0-128-0-80-background-color p {
+    background-color: rgba(0, 128, 0, 0.31) !important;
+}
+
+.pf-0-128-0-0-background-color span,
+.pf-0-128-0-0-background-color p {
+    background-color: rgba(0, 128, 0, 0) !important;
+}
+
+/*yellow*/
+.pf-255-255-0-255-background-color span,
+.pf-255-255-0-255-background-color p {
+    background-color: rgba(255, 255, 0, 1) !important;
+}
+
+.pf-255-255-0-168-background-color span,
+.pf-255-255-0-168-background-color p {
+    background-color: rgba(255, 255, 0, 0.66) !important;
+}
+
+.pf-255-255-0-80-background-color span,
+.pf-255-255-0-80-background-color p {
+    background-color: rgba(255, 255, 0, 0.31) !important;
+}
+
+.pf-255-255-0-0-background-color span,
+.pf-255-255-0-0-background-color p {
+    background-color: rgba(255, 255, 0, 0) !important;
+}
+
+/*blue*/
+.pf-0-0-255-255-background-color span,
+.pf-0-0-255-255-background-color p {
+    background-color: rgba(0, 0, 255, 1) !important;
+}
+
+.pf-0-0-255-168-background-color span,
+.pf-0-0-255-168-background-color p {
+    background-color: rgba(0, 0, 255, 0.66) !important;
+}
+
+.pf-0-0-255-80-background-color span,
+.pf-0-0-255-80-background-color p {
+    background-color: rgba(0, 0, 255, 0.31) !important;
+}
+
+.pf-0-0-255-0-background-color span,
+.pf-0-0-255-0-background-color p {
+    background-color: rgba(0, 0, 255, 0) !important;
+}
+
+/*magenta*/
+.pf-255-0-255-255-background-color span,
+.pf-255-0-255-255-background-color p {
+    background-color: rgba(255, 0, 255, 1) !important;
+}
+
+.pf-255-0-255-168-background-color span,
+.pf-255-0-255-168-background-color p {
+    background-color: rgba(255, 0, 255, 0.66) !important;
+}
+
+.pf-255-0-255-80-background-color span,
+.pf-255-0-255-80-background-color p {
+    background-color: rgba(255, 0, 255, 0.31) !important;
+}
+
+.pf-255-0-255-0-background-color span,
+.pf-255-0-255-0-background-color p {
+    background-color: rgba(255, 0, 255, 0) !important;
+}
+
+/*cyan*/
+.pf-0-255-255-255-background-color span,
+.pf-0-255-255-255-background-color p {
+    background-color: rgba(0, 255, 255, 1) !important;
+}
+
+.pf-0-255-255-168-background-color span,
+.pf-0-255-255-168-background-color p {
+    background-color: rgba(0, 255, 255, 0.66) !important;
+}
+
+.pf-0-255-255-80-background-color span,
+.pf-0-255-255-80-background-color p {
+    background-color: rgba(0, 255, 255, 0.31) !important;
+}
+
+.pf-0-255-255-0-background-color span,
+.pf-0-255-255-0-background-color p {
+    background-color: rgba(0, 255, 255, 0) !important;
+}
+
+
+/* Windows Color */
+
+/*white*/
+.pf-255-255-255-255-window-color div {
+    background-color: rgba(255, 255, 255, 1) !important;
+}
+
+.pf-255-255-255-168-window-color div {
+    background-color: rgba(255, 255, 255, 0.66) !important;
+}
+
+.pf-255-255-255-80-window-color div {
+    background-color: rgba(255, 255, 255, 0.31) !important;
+}
+
+.pf-255-255-255-0-window-color div {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+/*black*/
+.pf-0-0-0-255-window-color div {
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.pf-0-0-0-168-window-color div {
+    background-color: rgba(0, 0, 0, 0.66) !important;
+}
+
+.pf-0-0-0-80-window-color div {
+    background-color: rgba(0, 0, 0, 0.31) !important;
+}
+
+.pf-0-0-0-0-window-color div {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+/*red*/
+.pf-255-0-0-255-window-color div {
+    background-color: rgba(255, 0, 0, 1) !important;
+}
+
+.pf-255-0-0-168-window-color div {
+    background-color: rgba(255, 0, 0, 0.66) !important;
+}
+
+.pf-255-0-0-80-window-color div {
+    background-color: rgba(255, 0, 0, 0.31) !important;
+}
+
+.pf-255-0-0-0-window-color div {
+    background-color: rgba(255, 0, 0, 0) !important;
+}
+
+/*green*/
+.pf-0-128-0-255-window-color div {
+    background-color: rgba(0, 128, 0, 1) !important;
+}
+
+.pf-0-128-0-168-window-color div {
+    background-color: rgba(0, 128, 0, 0.66) !important;
+}
+
+.pf-0-128-0-80-window-color div {
+    background-color: rgba(0, 128, 0, 0.31) !important;
+}
+
+.pf-0-128-0-0-window-color div {
+    background-color: rgba(0, 128, 0, 0) !important;
+}
+
+/*yellow*/
+.pf-255-255-0-255-window-color div {
+    background-color: rgba(255, 255, 0, 1) !important;
+}
+
+.pf-255-255-0-168-window-color div {
+    background-color: rgba(255, 255, 0, 0.66) !important;
+}
+
+.pf-255-255-0-80-window-color div {
+    background-color: rgba(255, 255, 0, 0.31) !important;
+}
+
+.pf-255-255-0-0-window-color div {
+    background-color: rgba(255, 255, 0, 0) !important;
+}
+
+/*blue*/
+.pf-0-0-255-255-window-color div {
+    background-color: rgba(0, 0, 255, 1) !important;
+}
+
+.pf-0-0-255-168-window-color div {
+    background-color: rgba(0, 0, 255, 0.66) !important;
+}
+
+.pf-0-0-255-80-window-color div {
+    background-color: rgba(0, 0, 255, 0.31) !important;
+}
+
+.pf-0-0-255-0-window-color div {
+    background-color: rgba(0, 0, 255, 0) !important;
+}
+
+/*magenta*/
+.pf-255-0-255-255-window-color div {
+    background-color: rgba(255, 0, 255, 1) !important;
+}
+
+.pf-255-0-255-168-window-color div {
+    background-color: rgba(255, 0, 255, 0.66) !important;
+}
+
+.pf-255-0-255-80-window-color div {
+    background-color: rgba(255, 0, 255, 0.31) !important;
+}
+
+.pf-255-0-255-0-window-color div {
+    background-color: rgba(255, 0, 255, 0) !important;
+}
+
+/*cyan*/
+.pf-0-255-255-255-window-color div {
+    background-color: rgba(0, 255, 255, 1) !important;
+}
+
+.pf-0-255-255-168-window-color div {
+    background-color: rgba(0, 255, 255, 0.66) !important;
+}
+
+.pf-0-255-255-80-window-color div {
+    background-color: rgba(0, 255, 255, 0.31) !important;
+}
+
+.pf-0-255-255-0-window-color div {
+    background-color: rgba(0, 255, 255, 0) !important;
+}
+
+
+/* handle full screen and snapped */
+.pf-viewbox.pf-snapped-player {
+    -ms-grid-column: 1;
+    -ms-grid-row: 2;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-grid-column-align: center;
+    -ms-grid-row-align: end;
+}
+.pf-viewbox.pf-full-player {
+    height: 30%;
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+}
+
+.pf-captions-container {
+    width: 100%;
+    height: 100%;
+    line-height: 1.15;
+    letter-spacing: 0px;
+    -ms-word-wrap: break-word;
+}
+
+.pf-viewbox.pf-snapped-player .pf-captions-container {
+    height: 1080px;
+    width: 1920px;
+}
+
+.pf-viewbox {
+    font-size: 40px;
+}
+
